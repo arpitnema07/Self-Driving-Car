@@ -21,6 +21,14 @@ const traffic = [
   new Car(road.getLaneCenter(1), -400, 30, 50, "TRAFFIC", 1.5),
   new Car(road.getLaneCenter(0), -800, 30, 50, "TRAFFIC", 1.5),
   new Car(road.getLaneCenter(0), -1000, 30, 50, "TRAFFIC", 1.5),
+
+  new Car(road.getLaneCenter(2), -800, 30, 50, "TRAFFIC", 1.5),
+  new Car(road.getLaneCenter(2), -1000, 30, 50, "TRAFFIC", 1.5),
+  new Car(road.getLaneCenter(0), -1200, 30, 50, "TRAFFIC", 1.5),
+  new Car(road.getLaneCenter(0), -1400, 30, 50, "TRAFFIC", 1.5),
+
+  new Car(road.getLaneCenter(2), -700, 30, 50, "TRAFFIC", 1.5),
+  new Car(road.getLaneCenter(1), -1300, 30, 50, "TRAFFIC", 1.5),
 ];
 animate();
 
